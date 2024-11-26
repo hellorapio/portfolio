@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function PersonalLinks() {
   return (
-    <section className="py-4">
+    <section className="py-6">
       <div className="flex gap-4 ">
         <Link href="https://www.linkedin.com/in/hellorapio">
           <Badge>

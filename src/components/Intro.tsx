@@ -14,7 +14,7 @@ export default function Intro() {
         <p className="leading-relaxed">
           I <span className="underline underline-offset-4">code</span>,{" "}
           <span className="underline underline-offset-4">write</span>,
-          build stuff on internet and exploring new tech.
+          build stuff on internet and explore new tech.
         </p>
         <p className="text-md md:w-3/4 leading-relaxed">
           I love working in-between product, engineering and developer
