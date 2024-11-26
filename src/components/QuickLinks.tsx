@@ -3,15 +3,22 @@ import Link from "next/link";
 export default function QuickLinks() {
   return (
     <nav>
-      <ul className="flex gap-4 font-light">
+      <ul className="flex md:gap-6 gap-4">
         <li>
-          <Link href="/about">About</Link>
+          <Link
+            href="/about"
+            className="hover:opacity-60 transition-all duration-300"
+          >
+            About
+          </Link>
         </li>
         <li>
-          <Link href="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link href="/contact">Contact</Link>
+          <Link
+            href="/projects"
+            className="hover:opacity-60 transition-all duration-300"
+          >
+            Projects
+          </Link>
         </li>
       </ul>
     </nav>

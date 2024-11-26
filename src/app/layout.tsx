@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/Providers";
 
@@ -8,9 +8,7 @@ export const metadata: Metadata = {
   description: "I'm a software engineer and a full-stack developer.",
 };
 
-const inter = Inter({
-  subsets: ["latin"],
-});
+const mono = JetBrains_Mono({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -19,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${mono.className} antialiased`}>
         <Providers>{children}</Providers>
       </body>
     </html>

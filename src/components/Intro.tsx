@@ -8,8 +8,12 @@ export default function Intro() {
           hey, Abdelrahman here!
         </h2>
         <p className="text-md font-light">
-          Hi there, I&apos;m a fullstack Software Engineer who simply loves
-          building things and ship products.
+          I&apos;m a software engineer based in Cairo, Egypt. I code,
+          write, build stuff on internet and exploring new tech.
+        </p>
+        <p className="text-md font-light">
+          I love working in-between product, engineering and developer
+          experience.
         </p>
       </section>
     </Wrapper>
