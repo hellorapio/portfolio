@@ -27,12 +27,14 @@ export default function ExperienceItem({
             className="rounded-lg"
           />
         </div>
-        <div className="w-full">
-          <div className="flex justify-between items-center w-full">
-            <h3 className="text-md font-semibold">{company}</h3>
-            <p className="text-sm">{date}</p>
+        <div className="flex md:justify-between w-full md:flex-row flex-col gap-1 md:gap-0">
+          <div>
+            <h3 className="md:text-md text-sm font-semibold">{company}</h3>
+            <p className="md:text-sm text-xs text-gray-500">{title}</p>
           </div>
-          <p className="text-sm text-gray-500">{title}</p>
+          <div>
+            <p className="text-xs md:text-sm">{date}</p>
+          </div>
         </div>
       </div>
     </li>
